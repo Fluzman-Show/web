@@ -1,0 +1,40 @@
+html * {
+    color: whitesmoke;
+}
+
+body {
+    background-color: black;
+}
+
+
+.container {
+    overflow:            hidden;
+    justify-content:     center;
+    display:             flex;
+    flex-direction:      column;
+    align-items:         center;
+}
+
+.logo {
+    padding-top: 2%;
+}
+
+.down {
+    padding-top:  2%;
+    padding-left: 0.7%;
+    font-size:    large;
+}
+
+.title {
+    padding-top: 0%;
+    font-size: x-large;
+    margin-bottom: -1.5%;
+}
+
+.monospace {
+    font-family: Roboto Mono, monospace;
+}
+
+.serif {
+    font-family: Roboto, sans-serif;
+}
