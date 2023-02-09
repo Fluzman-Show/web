@@ -17,12 +17,7 @@ body {
 
 .logo {
     padding-top: 2%;
-    user-drag: none;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+    pointer-events: none;
 }
 
 .down {
@@ -35,17 +30,11 @@ body {
     padding-top: 0%;
     font-size: x-large;
     margin-bottom: -1.5%;
-    -webkit-user-select: none; /* Safari */        
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+/Edge */
-    user-select: none; /* Standard */
+    pointer-events: none;
 }
 
 .subtitle {
-    -webkit-user-select: none; /* Safari */        
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+/Edge */
-    user-select: none; /* Standard */
+    pointer-events: none;
 }
 
 .monospace {
